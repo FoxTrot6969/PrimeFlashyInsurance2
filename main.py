@@ -23,7 +23,7 @@ async def on_ready():
         print(f"❌ Error al sincronizar comandos: {e}")
 
     await bot.change_presence(activity=discord.Activity(
-        type=discord.ActivityType.watching, name="a los nuevos miembros"))
+        type=discord.ActivityType.watching, name="¿Es efectiva la lavandina para desintegrar un gato de 57kg?"))
 
 
 async def main():
